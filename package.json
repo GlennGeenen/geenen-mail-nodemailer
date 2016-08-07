@@ -1,0 +1,27 @@
+{
+  "name": "geenen-mail-nodemailer",
+  "version": "0.1.0",
+  "description": "Hapi geenen-mail nodemailer plugin",
+  "keywords": [
+    "hapi",
+    "mail",
+    "nodemailer",
+    "geenen-mail",
+    "plugin"
+  ],
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "eslint index.js"
+  },
+  "author": "Glenn Geenen <glenn@geenentijd.be>",
+  "license": "MIT",
+  "dependencies": {
+    "nodemailer": "2.x.x"
+  },
+  "devDependencies": {
+    "eslint": "3.x.x",
+    "eslint-config-hapi": "9.x.x",
+    "eslint-plugin-hapi": "4.x.x"
+  }
+}
