@@ -1,20 +1,32 @@
 {
   "name": "geenen-mail-nodemailer",
-  "version": "0.1.0",
-  "description": "Hapi geenen-mail nodemailer plugin",
+  "version": "1.0.0",
+  "description": "Hapi geenen-mail nodemailer service",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:GlennGeenen/geenen-mail-nodemailer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GlennGeenen/geenen-mail-nodemailer/issues"
+  },
   "keywords": [
     "hapi",
     "mail",
     "nodemailer",
-    "geenen-mail",
-    "plugin"
+    "geenen-mail"
   ],
   "main": "index.js",
-  "private": true,
   "scripts": {
     "test": "eslint index.js"
   },
-  "author": "Glenn Geenen <glenn@geenentijd.be>",
+  "author": {
+    "name": "Glenn Geenen",
+    "email": "glenn@geenentijd.be",
+    "url": "https://glenngeenen.be"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
   "license": "MIT",
   "dependencies": {
     "nodemailer": "2.x.x"

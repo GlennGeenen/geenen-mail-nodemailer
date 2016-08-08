@@ -1,4 +1,4 @@
-# Geenen Mail NodeMailer Plugin
+# Geenen Mail NodeMailer service
 
 This is a geenen-mail service for sending emails with NodeMailer.
 
